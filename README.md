@@ -119,7 +119,7 @@ Available colors: black, red, green, yellow, blue, magenta, cyan, white, and the
 ```
 fish_gen/
 ├── src/
-│   ├── components/       # React components
+│   ├── components/       # SolidJS components
 │   │   ├── ConfigForm.tsx
 │   │   ├── FormControls.tsx
 │   │   └── PromptPreview.tsx

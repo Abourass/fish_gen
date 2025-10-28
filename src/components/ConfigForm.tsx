@@ -144,7 +144,7 @@ export const ConfigForm: Component<ConfigFormProps> = (props) => {
             { value: 'short', label: 'Short Path (~/projects/myapp)' },
             { value: 'relative', label: 'Relative (myapp)' },
           ]}
-          onChange={(value) => updateConfig('pathStyle', value as any)}
+          onChange={(value) => updateConfig('pathStyle', value as 'full' | 'short' | 'relative')}
         />
         <TextInput
           label="Separator Character"
